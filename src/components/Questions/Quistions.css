@@ -1,0 +1,40 @@
+.quiz-container{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    column-gap: 20px;
+}
+
+.quiz-info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.quiz-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-header h3{
+    padding: 10px;
+}
+
+.quiz-header img{
+    width: 32;
+    height: 32px;
+    padding: 10px;
+}
+
+.answer-count{
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .quiz-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+  }

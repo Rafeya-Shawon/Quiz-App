@@ -1,0 +1,14 @@
+
+.nf{
+    padding: 5vw;
+}
+
+.nf-msg{
+    font-size: 10vw;
+    margin-bottom: 50px;
+}
+
+.nf span, p{
+    padding: 0px 10px;
+    color: rgb(8, 58, 169);
+}

@@ -1,0 +1,51 @@
+.topic-card img{
+    background-color: rgb(32, 30, 30);
+    border-radius: 15px;
+    max-width: 200px;
+    width: 100%;
+    margin: 10px;
+}
+
+.topic-card{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 2px 20px rgb(106, 109, 110);
+    border-radius: 15px;
+}
+
+.topic-detail{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding: 3vw;
+}
+
+.topic-detail p{
+    color: black;
+}
+
+.topic-detail button{
+    background-color: rgb(8, 58, 169);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid rgb(8, 58, 169);
+}
+
+.topic-detail button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(8, 58, 169);
+    color: rgb(8, 58, 169);
+}
+
+.btn-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.btn-style span{
+    margin-right: 5px;
+}

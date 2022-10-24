@@ -1,0 +1,27 @@
+.options{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+}
+
+.qus-set{
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.qus-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .options{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+    }
+  }
