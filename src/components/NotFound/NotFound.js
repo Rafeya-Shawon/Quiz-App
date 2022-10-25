@@ -8,7 +8,7 @@ function NotFound(){
     return (
         <div className="nf">
             <h1 className="nf-msg">Oops! ...</h1>
-            <p>404 NOT FOUND <span><FontAwesomeIcon icon={faChainBroken}></FontAwesomeIcon></span></p>
+            <p className="text-xl">404 NOT FOUND <span><FontAwesomeIcon icon={faChainBroken}></FontAwesomeIcon></span></p>
             
         </div>
     );

@@ -17,21 +17,7 @@
     align-items: center;
 }
 
-.quiz-header h3{
-    padding: 10px;
-}
-
-.quiz-header img{
-    width: 32;
-    height: 32px;
-    padding: 10px;
-}
-
-.answer-count{
-    padding: 10px;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .quiz-container{
         display: flex;
         flex-direction: column-reverse;

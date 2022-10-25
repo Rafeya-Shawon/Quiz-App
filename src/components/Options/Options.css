@@ -2,15 +2,16 @@
     display: flex;
     align-items: center;
     flex-grow: 1;
-    border: 1px solid rgb(8, 58, 169);
+    border: 1px solid rgb(228, 155, 9);
     border-radius: 10px;
     padding: 20px;
     width: 250px;
-    height: 50px;
+    height: 70px;
+    color:black;
 }
 
 .option-container:hover{
-    background-color: rgb(218, 226, 243);
+    background-color: rgb(243, 236, 218);
 }
 
 .option-container span{

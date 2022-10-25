@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
+    
 }
 
 .qus-set{
@@ -18,7 +19,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .options{
         display: grid;
         grid-template-columns: repeat(1, 1fr);

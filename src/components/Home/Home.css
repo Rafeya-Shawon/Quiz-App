@@ -2,34 +2,27 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin: 2vw 15vw;
+    margin: 5vw 10vw;
 }
 
 .banner img{
     width: 250px;
-    height: 150px;
-    border-radius: 10px;
+    height: 250px;
+    border-radius: 5px;
 }
 
-.banner h1{
-    margin-top: 0px;
+.banner{
     text-align: left;
 }
 
-.banner p{
-    text-align: left;
-    margin-left: 0px;
-    color: black;
-}
+
 
 .banner-detail{
-    padding: 0px 50px;
-}
-.app-name{
-    color: #083ba9;
+    padding: 0px 20px;
+    margin-top: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .banner{
         flex-direction: column;
         align-items: center;
@@ -38,4 +31,5 @@
     .banner h1{
         text-align: center;
     }
+    
   }

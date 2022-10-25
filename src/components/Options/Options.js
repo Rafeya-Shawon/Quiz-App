@@ -18,7 +18,7 @@ function Options({stateData, qus, ca, op}){
         console.log(stateData);
         let arr = [];
         if(stateData[0].includes(qus)){
-            toast('Already Checked ... ');
+            toast('Already Checked!');
         }else{
             setTick3(!tick3);
 
@@ -26,7 +26,7 @@ function Options({stateData, qus, ca, op}){
                 func(state[0]);
                 toast('Correct Answer!');
             }else{
-                toast('Wrong Answer');
+                toast('Wrong Answer!');
             }
             
             arr.push(qus);
@@ -36,8 +36,8 @@ function Options({stateData, qus, ca, op}){
     }
 
     return(
-        <div onClick={()=> answerHandler(data.qus)} className="option-container">
-            <FontAwesomeIcon icon={ tick3 ? faCircleCheck : faCircle}></FontAwesomeIcon>
+        <div onClick={()=> answerHandler(data.qus)} className="option-container text-sm">
+            <FontAwesomeIcon className='text-orange-500' icon={ tick3 ? faCircleCheck : faCircle}></FontAwesomeIcon>
             <span>{op}</span>
             <ToastContainer></ToastContainer>
         </div>

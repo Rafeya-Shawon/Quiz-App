@@ -13,13 +13,11 @@ function Home(){
     
     return(
         <div>
-            <div className="banner">
-            <img src={Image} alt="banner"></img>
+            <div className="banner text-base ">
+            <img src={Image} alt="banner" className="drop-shadow-sm"/>
                 <div className="banner-detail">
-                    <h1>Participate in our <span className="app-name"> Tech KBC</span></h1>
-                    <p>
-                        Judge your <strong>Web language</strong> knowledge. By selecting any of the following <strong>Web Technologies</strong>.
-                        Our question set sufficient enough to provide you basic idea about your knowledge!
+                    <h1 className="text-2xl">Participate in our <span className="text-xl font-bold"> Tech KBC</span></h1>
+                    <p className="text-lg text-black mt-5">Judge your <strong className="font-bold">Web language</strong> knowledge. By selecting any of the following <strong className="font-bold">Web Technologies</strong>. Our question set sufficient enough to provide you basic idea about your knowledge!
                     </p>
                 </div>
             </div>
