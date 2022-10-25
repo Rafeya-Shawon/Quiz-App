@@ -9,9 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Quiz({data, idx}){
 
-    const {options, question,id, correctAnswer} = data;
+    const {options, question, id, correctAnswer} = data;
     const [ans, setAns] = useState([]);
-
     const showCorrectAns = ()=>{
         toast(`Correct Answer is ${correctAnswer}`);
     }
@@ -20,7 +19,7 @@ function Quiz({data, idx}){
         <div>
             <div className="qus-set">
                 <div className="qus-head">
-                    <h4>Q{idx + 1}: <span>{question}</span></h4>
+                    <h4>Q{idx + 1}: <span>{question.replace('<p>','').replace('</p>', '')}</span></h4>
                     <Link onClick={showCorrectAns} key={idx}><FontAwesomeIcon className="text-orange-500" icon={faEye}></FontAwesomeIcon></Link>
                 </div>
                 <div className="options">

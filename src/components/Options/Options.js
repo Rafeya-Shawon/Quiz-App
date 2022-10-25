@@ -14,8 +14,6 @@ function Options({stateData, qus, ca, op}){
     const {func, state} = useContext(TickContext);
 
     const answerHandler = (qus)=>{
-        console.log(qus);
-        console.log(stateData);
         let arr = [];
         if(stateData[0].includes(qus)){
             toast('Answered Already!');
@@ -27,11 +25,9 @@ function Options({stateData, qus, ca, op}){
                 toast('Correct Answer!');
             }else{
                 toast('Wrong Answer!');
-            }
-            
+            } 
             arr.push(qus);
             stateData[1]([...stateData[0], ...arr]);
-            console.log(stateData[0]);
         }
     }
 
