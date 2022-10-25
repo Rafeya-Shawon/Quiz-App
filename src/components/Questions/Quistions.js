@@ -10,7 +10,6 @@ function Questions(){
     const [count, setCount] = useState(0);
     const {data} = useLoaderData();
 
-
     const handleTicks = (status)=>{
         setCount(status + 1);
     }
