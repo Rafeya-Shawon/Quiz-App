@@ -31,6 +31,7 @@ function Quiz({data, idx}){
             <ToastContainer></ToastContainer>
         </div>
     );
+    //quiz app 
 }
 
 export default Quiz;
