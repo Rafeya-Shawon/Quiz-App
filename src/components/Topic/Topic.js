@@ -12,7 +12,7 @@ function Topic({data}){
             <div className="topic-detail">
                 <p>Total Quiz: {data.total}</p>
                 <Link to={`/quiz/${data.id}`}>
-                    <button>
+                    <button className="transition">
                         <div className="btn-style">
                             <span>Start Quiz</span>
                             <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>

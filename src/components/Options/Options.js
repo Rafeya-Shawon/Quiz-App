@@ -18,7 +18,7 @@ function Options({stateData, qus, ca, op}){
         console.log(stateData);
         let arr = [];
         if(stateData[0].includes(qus)){
-            toast('Already Checked!');
+            toast('Answered Already!');
         }else{
             setTick3(!tick3);
 

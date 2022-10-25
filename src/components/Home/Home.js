@@ -12,12 +12,13 @@ function Home(){
     const data = useLoaderData();
     
     return(
-        <div>
-            <div className="banner text-base ">
-            <img src={Image} alt="banner" className="drop-shadow-sm"/>
-                <div className="banner-detail">
-                    <h1 className="text-2xl">Participate in our <span className="text-xl font-bold"> Tech KBC</span></h1>
-                    <p className="text-lg text-black mt-5">Judge your <strong className="font-bold">Web language</strong> knowledge. By selecting any of the following <strong className="font-bold">Web Technologies</strong>. Our question set sufficient enough to provide you basic idea about your knowledge!
+        <div className="">
+            <div className="banner text-base bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-lg drop-shadow-sm">
+            <img src={Image} alt="banner" className="drop-shadow-sm rounded-full hover:scale-125"/>
+                <div className="banner-detail ">
+                    <h1 className="text-4xl font-bold text-orange-200">Welcome to Tech KBC</h1>
+                    <p className="text-lg text-white mt-5">Put your knowledge about Web Tech to test with our quiz and have some nerdy fun in the process.
+                    Take our quiz to find out how much you know about technology and learn a thing or two about the tech topics that will reshape our future - for better or worse.
                     </p>
                 </div>
             </div>

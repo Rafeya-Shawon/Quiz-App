@@ -18,25 +18,27 @@
     flex-direction: column;
     font-weight: bold;
     padding: 3vw;
+    
 }
 
 .topic-detail p{
     color: black;
+    padding-bottom: 20px;
 }
 
 .topic-detail button{
-    background-color: rgb(8, 58, 169);
+    background-color: rgb(250, 173, 9);
     border-radius: 5px;
     font-weight: bold;
     color: white;
-    border: 1px solid rgb(8, 58, 169);
+    border: 1px solid rgb(243, 209, 84);
 }
 
 .topic-detail button:hover{
     cursor: pointer;
     background-color: white;
-    border: 1px solid rgb(8, 58, 169);
-    color: rgb(8, 58, 169);
+    border: 1px solid rgb(243, 204, 9);
+    color: rgb(224, 161, 59);
 }
 
 .btn-style{
